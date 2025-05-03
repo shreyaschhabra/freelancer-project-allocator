@@ -1,0 +1,26 @@
+id,name,skills,experience
+101,Analytics Platform,Python SQL Docker,7
+102,Mobile App,Java Kotlin Android,6
+103,Web Portal,JavaScript React CSS,5
+104,Data Science Project,Python R Data_Science,8
+105,Cloud Migration,AWS Docker Kubernetes,9
+106,Embedded System,C++ Embedded Linux,7
+107,Website Redesign,HTML CSS JavaScript,5
+108,API Development,Python Flask SQL,6
+109,Big Data Pipeline,Scala Spark Big_Data,8
+110,Legacy System Upgrade,Java Spring Hibernate,7
+111,DevOps Automation,Go Docker Kubernetes,6
+112,CRM System,PHP MySQL Laravel,5
+113,IoT Dashboard,Python Pandas Excel,4
+114,Healthcare App,JavaScript Vue.js TypeScript,6
+115,Education App,JavaScript Angular RxJS,5
+116,ERP System,Java Spring Git,8
+117,Inventory Tracker,Python Django REST_API,7
+118,Social Media Site,JavaScript React Node.js,5
+119,Finance Dashboard,Python Pandas SQL,6
+120,Travel Booking,JavaScript React CSS,4
+121,ML Model Deployment,Python Docker AWS,9
+122,HR Portal,JavaScript Vue.js HTML,5
+123,Marketplace,PHP MySQL Laravel,7
+124,IoT Device Manager,C++ Embedded Linux,6
+125,BI Tool,Scala Spark Big_Data,8

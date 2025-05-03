@@ -1,0 +1,31 @@
+id,name,skills,experience
+101,AI Chatbot Development,Python Machine_Learning NLP TensorFlow,4
+102,E-commerce Platform,React Node.js MongoDB AWS,5
+103,Mobile Banking App,Java Kotlin Android Security,6
+104,Data Analytics Dashboard,Python R SQL Tableau,5
+105,Social Media Platform,JavaScript React AWS GraphQL,3
+106,Healthcare Management System,Java Spring MySQL Security,7
+107,IoT Monitoring System,C++ Python MongoDB Cloud,4
+108,Content Management System,PHP MySQL Laravel Web,5
+109,Real-time Analytics Platform,Python JavaScript Data_Science,6
+110,Enterprise Resource Planning,Java Angular TypeScript,8
+111,iOS Fitness App,Swift iOS HealthKit UI_Design,4
+112,Microservices Architecture,Java Spring_Boot Docker Kubernetes,5
+113,Python Backend API,Python Django PostgreSQL REST,4
+114,Cross-platform Mobile App,React Native JavaScript Mobile,5
+115,DevOps Pipeline Setup,DevOps Jenkins Docker AWS,6
+116,AI Image Recognition,Python TensorFlow Computer_Vision,5
+117,Full-stack Web Application,JavaScript React Node.js MongoDB,4
+118,UI/UX Design System,UI_Design UX_Design Figma CSS,5
+119,Cloud Migration Project,AWS Azure Docker Kubernetes,6
+120,Data Engineering Pipeline,Python SQL ETL Data_Warehouse,4
+121,Java Microservices,Java Spring_Boot REST_API Docker,5
+122,React Frontend Development,React Redux TypeScript CSS,4
+123,Python Backend Service,Python Django PostgreSQL API,6
+124,Node.js Backend API,Node.js Express MongoDB REST,5
+125,CI/CD Implementation,DevOps Jenkins Git Docker,4
+126,Machine Learning Model,Python Scikit-learn Data_Science,6
+127,JavaScript Full-stack App,JavaScript React Node.js SQL,5
+128,Design System Implementation,UI_Design CSS HTML Figma,4
+129,Cloud Infrastructure Setup,AWS Docker Kubernetes Terraform,6
+130,Data Visualization Dashboard,Python SQL Tableau Data_Analysis,5 

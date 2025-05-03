@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimal Freelancer-Project Allocation System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Optimal Freelancer-Project Allocation System</h1>
+        <p>Interactive visualization of optimal matches</p>
+    </header>
+
+    <div class="dashboard">
+        <div class="stats-panel">
+            <div class="stat-card">
+                <h3>Total Freelancers</h3>
+                <p id="totalFreelancers">0</p>
+            </div>
+            <div class="stat-card">
+                <h3>Total Projects</h3>
+                <p id="totalProjects">0</p>
+            </div>
+            <div class="stat-card">
+                <h3>Matched Pairs</h3>
+                <p id="matchedPairs">0</p>
+            </div>
+            <div class="stat-card">
+                <h3>Success Rate</h3>
+                <p id="successRate">0%</p>
+            </div>
+        </div>
+
+        <div class="graphs-panel">
+            <div class="graph-container">
+                <h3>Skills Distribution</h3>
+                <canvas id="skillsChart"></canvas>
+            </div>
+            <div class="graph-container">
+                <h3>Experience Distribution</h3>
+                <canvas id="experienceChart"></canvas>
+            </div>
+            <div class="graph-container">
+                <h3>Match Quality</h3>
+                <canvas id="matchQualityChart"></canvas>
+            </div>
+        </div>
+
+        <div class="visualization-panel">
+            <div class="controls">
+                <button id="startVisualization" class="btn primary">Start Visualization</button>
+                <button id="resetVisualization" class="btn secondary">Reset</button>
+            </div>
+            <div class="bloom-skill-check-panel">
+                <h3>Check Skill Existence (Bloom Filter)</h3>
+                <input type="text" id="bloomSkillInput" placeholder="Enter skill name...">
+                <button id="bloomSkillCheckBtn" class="btn">Check Skill</button>
+                <div id="bloomSkillResult"></div>
+                <table id="bloomSkillTable" style="width:100%;display:none;margin-top:10px;border-collapse:collapse;">
+                  <thead>
+                    <tr>
+                      <th>ID</th>
+                      <th>Name</th>
+                      <th>Experience</th>
+                      <th>Skills</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+            </div>
+            
+            <div class="matching-area">
+                <div id="matchesTableContainer">
+                    <h3>Matched Freelancer-Project Pairs</h3>
+                    <table id="matchesTable" style="width:100%;margin-bottom:20px;border-collapse:collapse;">
+                        <thead>
+                            <tr>
+                                <th>Freelancer</th>
+                                <th>Project</th>
+                                <th>Score</th>
+                                <th>Skills</th>
+                                <th>Experience</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <div id="unmatchedTableContainer">
+                    <h3>Unmatched Freelancers</h3>
+                    <table id="unmatchedTable" style="width:100%;border-collapse:collapse;">
+                        <thead>
+                            <tr>
+                                <th>Freelancer</th>
+                                <th>Skills</th>
+                                <th>Experience</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="details-panel">
+            <div class="search-controls">
+                <input type="text" id="searchInput" placeholder="Search matches...">
+                <select id="filterType">
+                    <option value="all">All Matches</option>
+                    <option value="matched">Perfect Matches</option>
+                    <option value="unmatched">Partial Matches</option>
+                </select>
+            </div>
+            <div id="matchesList" class="matches-list"></div>
+        </div>
+    </div>
+
+    <div id="detailsModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Match Details</h2>
+            <div class="modal-body">
+                <div id="modalFreelancerDetails" class="modal-section"></div>
+                <div id="modalProjectDetails" class="modal-section"></div>
+                <div id="modalMatchScore" class="modal-section"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
