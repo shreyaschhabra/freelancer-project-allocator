@@ -132,7 +132,7 @@ Now open your browser and go to `http://localhost:3000`
 
 ## 👨‍🎓 Author
 
-**Shreyas**   
+**Shreyas Chhabra**   
 IIT Patna
 
 ---
