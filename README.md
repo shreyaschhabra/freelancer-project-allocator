@@ -1,11 +1,11 @@
 
-# 🚀 Optimized Freelancer-Project Allocation System
+# Optimized Freelancer-Project Allocation System
 
 A comprehensive and optimized system designed to **intelligently match freelancers to projects** using the **Hungarian Algorithm**, incorporating skills, experience, and availability constraints. Built with a **high-performance C backend**, a **Node.js bridge**, and an interactive **JavaScript-based frontend**, this system ensures **efficient and fair allocation** even at scale.
 
 ---
 
-## 🧠 Problem Statement
+## Problem Statement
 
 Organizations often struggle to assign the right people to the right projects due to varying skillsets, experience levels, and schedule constraints. This project solves that problem by:
 - Creating a **cost matrix** based on real-world parameters.
@@ -14,18 +14,18 @@ Organizations often struggle to assign the right people to the right projects du
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
-✅ **Optimal Matching** using the Hungarian Algorithm  
-📊 **Multi-Factor Cost Modeling** (Skill Mismatch, Experience Gap, Availability)  
-🗂️ **CSV-Based Input/Output** for portability and ease of configuration  
-⚙️ **High-Performance C Core** for real-time matching  
-💻 **Frontend UI** for uploading data and viewing results  
-📈 **Scalable** to 70+ freelancers/projects
+**Optimal Matching** using the Hungarian Algorithm  
+**Multi-Factor Cost Modeling** (Skill Mismatch, Experience Gap, Availability)  
+**CSV-Based Input/Output** for portability and ease of configuration  
+**High-Performance C Core** for real-time matching  
+**Frontend UI** for uploading data and viewing results  
+**Scalable** to 70+ freelancers/projects
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ```
 freelancer-matching/
@@ -51,7 +51,7 @@ freelancer-matching/
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **C** – Efficient matching logic using Hungarian Algorithm  
 - **Node.js** – Middleware server to run C executables  
@@ -60,7 +60,7 @@ freelancer-matching/
 
 ---
 
-## 📦 Installation & Usage
+## Installation & Usage
 
 ### Step 1: Clone the Repo
 
@@ -91,7 +91,7 @@ Now open your browser and go to `http://localhost:3000`
 
 ---
 
-## 🔢 Matching Logic Breakdown
+## Matching Logic Breakdown
 
 - Each freelancer is evaluated against each project.
 - A **cost score** is calculated using:
@@ -103,7 +103,7 @@ Now open your browser and go to `http://localhost:3000`
 
 ---
 
-## 📈 Example Output
+## Example Output
 
 | Freelancer    | Assigned Project | Cost Score |
 |---------------|------------------|------------|
@@ -113,7 +113,7 @@ Now open your browser and go to `http://localhost:3000`
 
 ---
 
-## 🧪 Testing
+## Testing
 
 - The system has been tested on **>70 freelancers and projects**.
 - Various edge cases are considered including:
@@ -123,27 +123,27 @@ Now open your browser and go to `http://localhost:3000`
 
 ---
 
-## 📚 Documentation
+## Documentation
 
-- 📄 **Project Report**: Full system explanation, design decisions, and performance analysis.
-- 📊 **Presentation PDF**: Summary of key findings and algorithm behavior.
+- **Project Report**: Full system explanation, design decisions, and performance analysis.
+- **Presentation PDF**: Summary of key findings and algorithm behavior.
 
 ---
 
-## 👨‍🎓 Author
+## Author
 
 **Shreyas Chhabra**   
 IIT Patna
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 - Hungarian Algorithm - Kuhn-Munkres method
 - CSV Parsing References from C Libraries
